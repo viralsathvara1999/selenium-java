@@ -10,6 +10,7 @@ Ensure the following are installed and configured on your system:
 - ✅ Maven (Bundled with IntelliJ or install separately)
 
 ✳️ HOW TO USE
+
 Open the Project in IntelliJ IDEA:
 
 Open IntelliJ IDEA
@@ -45,14 +46,15 @@ Right-click and select Run
 ✅ Supports parallel execution
 
 📌 Concepts Used
-Java 11+
 
-Selenium WebDriver
+✅Java 11+
 
-TestNG
+✅Selenium WebDriver
 
-Maven
+✅TestNG
 
-Page Object Model
+✅Maven
 
-Log4j Logging
+✅Page Object Model
+
+✅Log4j Logging
