@@ -29,25 +29,7 @@ Navigate to src/test/resources/testng.xml
 
 Right-click and select Run
 
-📚 Framework Structure
 
-SeleniumJavaAutomation/
-│
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── org.example/
-│   │           ├── base/              # Base classes for driver setup
-│   │           ├── enums/             # Driver types
-│   │           ├── pageobjects/       # Page Object classes
-│   │           └── utility/           # ExtentReports, Action classes
-│   └── test/
-│       └── java/
-│           └── testcases/            # All test case classes
-│
-├── pom.xml                           # Maven configuration
-├── testng.xml                        # Test suite file
-└── README.md                         # Project readme file
 
 💡 Key Features
 ✅ Selenium WebDriver for UI automation
