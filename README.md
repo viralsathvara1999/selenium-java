@@ -14,7 +14,8 @@ Open Project = SeleniumJavaAutomation
 Open Maven Project Tab on IntelliJ IDEA and click on LifeCycle > Package. This will install project dependencies.
 
 ✳️ HOW TO USE
-1. Run parallel the test case
+
+Run parallel the test case
 
 Run test cases in suite XML (src/testng.xml)
 
