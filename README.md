@@ -1,30 +1,76 @@
 Selenium-Java Test Automation Framework
 
-✳️ SYSTEM REQUIREMENTS
-Download SeleniumJavaAutomation Project from GitHub
+## ✳️ System Requirements
 
-Install Java JDK (recommend JDK >= 11) 
+Ensure the following are installed and configured on your system:
 
-Install latest IntelliJ IDEA
-
-Install Chrome Browser, Edge Browser,
-
-Open Project = SeleniumJavaAutomation
-
-Open Maven Project Tab on IntelliJ IDEA and click on LifeCycle > Package. This will install project dependencies.
+- ✅ Java JDK 11 or higher  
+- ✅ IntelliJ IDEA (Latest version recommended)  
+- ✅ Chrome and/or Edge Browser  
+- ✅ Maven (Bundled with IntelliJ or install separately)
 
 ✳️ HOW TO USE
+Open the Project in IntelliJ IDEA:
 
-Run parallel the test case
+Open IntelliJ IDEA
 
-Run test cases in suite XML (src/testng.xml)
+Select File > Open and choose the project folder
 
-Run test cases from Maven with setup in the pom.xml file (mvn clean test)
+Install Maven Dependencies:
 
-✳️ Concepts Used
-Maven-Java
-Selenium (WebDriver)
+Open the Maven tab in IntelliJ
+
+Navigate to Lifecycle > package and double-click to install dependencies
+
+🚀 How to Run Tests
+🔹  Run TestNG Suite
+
+Navigate to src/test/resources/testng.xml
+
+Right-click and select Run
+
+📚 Framework Structure
+
+SeleniumJavaAutomation/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── org.example/
+│   │           ├── base/              # Base classes for driver setup
+│   │           ├── enums/             # Driver types
+│   │           ├── pageobjects/       # Page Object classes
+│   │           └── utility/           # ExtentReports, Action classes
+│   └── test/
+│       └── java/
+│           └── testcases/            # All test case classes
+│
+├── pom.xml                           # Maven configuration
+├── testng.xml                        # Test suite file
+└── README.md                         # Project readme file
+
+💡 Key Features
+✅ Selenium WebDriver for UI automation
+
+✅ TestNG for test structure and assertions
+
+✅ Page Object Model (POM) for maintainability
+
+✅ Maven for dependency management and build
+
+✅ Logging with Log4j
+
+✅ Supports parallel execution
+
+📌 Concepts Used
+Java 11+
+
+Selenium WebDriver
+
 TestNG
-PageObject
 
+Maven
 
+Page Object Model
+
+Log4j Logging
