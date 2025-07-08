@@ -1,8 +1,24 @@
+Selenium-Java Test Automation Framework
+
 ✳️ SYSTEM REQUIREMENTS
-Install Java JDK (recommend JDK >= 11)
+Download SeleniumJavaAutomation Project from GitHub
+Install Java JDK (recommend JDK >= 11) 
+Install latest IntelliJ IDEA
+Install Chrome Browser, Edge Browser,
+Open Project = SeleniumJavaAutomation
+Open Maven Project Tab on IntelliJ IDEA and click on LifeCycle > Package. This will install project dependencies.
 
-Install Chrome Browser, Edge Browser, Firefox Browser
+✳️ HOW TO USE
+1. Run parallel the test case
 
-Run well on the Windows platform
+Run test cases in suite XML (src/testng.xml)
 
-Use IntelliJ IDEA is the best choice (easy change the JDK version)
+Run test cases from Maven with setup in the pom.xml file (mvn clean test)
+
+✳️ Concepts Used
+Maven-Java
+Selenium (WebDriver)
+TestNG
+PageObject
+
+
