@@ -9,7 +9,7 @@ Ensure the following are installed and configured on your system:
 - ✅ Chrome and/or Edge Browser  
 - ✅ Maven (Bundled with IntelliJ or install separately)
 
-✳️ HOW TO USE
+✳️ **HOW TO USE**
 
 Open the Project in IntelliJ IDEA:
 
@@ -23,7 +23,8 @@ Open the Maven tab in IntelliJ
 
 Navigate to Lifecycle > package and double-click to install dependencies
 
-🚀 How to Run Tests
+**🚀 How to Run Tests**
+
 🔹  Run TestNG Suite
 
 Navigate to src/test/resources/testng.xml
@@ -32,7 +33,8 @@ Right-click and select Run
 
 
 
-💡 Key Features
+**💡 Key Features**
+
 ✅ Selenium WebDriver for UI automation
 
 ✅ TestNG for test structure and assertions
@@ -45,7 +47,7 @@ Right-click and select Run
 
 ✅ Supports parallel execution
 
-📌 Concepts Used
+**📌 Concepts Used**
 
 ✅Java 11+
 
